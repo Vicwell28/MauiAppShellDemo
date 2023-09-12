@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiAppShellDemo.Views.DogsPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="DogsPage">
+    <ScrollView Background="gray">
+
+        <VerticalStackLayout>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            <Label BackgroundColor="Blue" Text="Text" FontSize="Large" TextColor="White"/>
+            
+        </VerticalStackLayout>
+
+
+    </ScrollView>
+</ContentPage>

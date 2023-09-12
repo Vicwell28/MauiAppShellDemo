@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="MauiAppShellDemo.FlyoutAppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:controls="clr-namespace:MauiAppShellDemo.Controls"
+    xmlns:sys="clr-namespace:System;assembly=netstandard"
+    xmlns:views="clr-namespace:MauiAppShellDemo.Views"
+    Title="FlyoutAppShell"
+    FlyoutHeaderBehavior="Default"
+    FlyoutVerticalScrollMode="Enabled">
+
+
+    <Shell.FlyoutHeader>
+        <controls:FlyoutHeader HeightRequest="130" />
+    </Shell.FlyoutHeader>
+
+    <Shell.FlyoutFooter>
+        <controls:FlyoutFooter HeightRequest="50" />
+    </Shell.FlyoutFooter>
+
+
+    <FlyoutItem
+        Title="Home"
+        FlyoutDisplayOptions="AsSingleItem"
+        Icon="dotnet_bot.png">
+        <ShellContent
+            Title="Dogs"
+            ContentTemplate="{DataTemplate views:DogsPage}"
+            Icon="dotnet_bot.png" />
+        <ShellContent
+            Title="Elephants"
+            ContentTemplate="{DataTemplate views:ElephantsPage}"
+            Icon="dotnet_bot.png" />
+        <ShellContent
+            Title="Bears"
+            ContentTemplate="{DataTemplate views:BearsPage}"
+            Icon="dotnet_bot.png" />
+    </FlyoutItem>
+    <FlyoutItem
+        Title="Configuracion de impresora"
+        FlyoutDisplayOptions="AsSingleItem"
+        Icon="dotnet_bot.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:CatsPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem
+        Title="Tickets de resumen"
+        FlyoutDisplayOptions="AsSingleItem"
+        Icon="dotnet_bot.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:DogsPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem
+        Title="Ticket de tiempos y movimientos"
+        FlyoutDisplayOptions="AsSingleItem"
+        Icon="dotnet_bot.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:CatsPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem
+        Title="Fin de dia"
+        FlyoutDisplayOptions="AsSingleItem"
+        Icon="dotnet_bot.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:DogsPage}" />
+        </Tab>
+    </FlyoutItem>
+    <FlyoutItem
+        Title="About"
+        FlyoutDisplayOptions="AsSingleItem"
+        Icon="dotnet_bot.png">
+        <Tab>
+            <ShellContent ContentTemplate="{DataTemplate views:CatsPage}" />
+        </Tab>
+    </FlyoutItem>
+ 
+
+</Shell>

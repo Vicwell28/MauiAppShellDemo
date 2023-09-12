@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentView
+    x:Class="MauiAppShellDemo.Views.ViewTabBar"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+    <Grid>
+        <!--  Encabezados de las pestañas  -->
+        <StackLayout
+            HeightRequest="50"
+            HorizontalOptions="FillAndExpand"
+            Orientation="Horizontal">
+            <Button
+                x:Name="Tab1Button"
+                BackgroundColor="LightGray"
+                Clicked="OnTabSelected"
+                HorizontalOptions="FillAndExpand"
+                Text="Tab 1" />
+            <Button
+                x:Name="Tab2Button"
+                BackgroundColor="LightGray"
+                Clicked="OnTabSelected"
+                HorizontalOptions="FillAndExpand"
+                Text="Tab 2" />
+        </StackLayout>
+
+        <!--  Contenido de las pestañas  -->
+        <CarouselView
+            x:Name="TabCarousel"
+            Margin="0,50,0,0"
+            VerticalOptions="FillAndExpand">
+            <CarouselView.ItemsSource>
+                <x:Array Type="{x:Type View}">
+                    <Label
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Contenido del Tab 1"
+                        VerticalOptions="CenterAndExpand" />
+                    <Label
+                        HorizontalOptions="CenterAndExpand"
+                        Text="Contenido del Tab 2"
+                        VerticalOptions="CenterAndExpand" />
+                </x:Array>
+            </CarouselView.ItemsSource>
+        </CarouselView>
+    </Grid>
+
+</ContentView>

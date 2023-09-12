@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiAppShellDemo.Views.MonkeyDetailPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Title="MonkeyDetailPage"
+    Shell.TabBarIsVisible="False">
+
+    <Grid Grid.Row="1" RowDefinitions="42*, 10*, 10*, 38*">
+        <Grid
+            Grid.Row="0"
+            Padding="5"
+            RowDefinitions="70*,15*,15*">
+            <ImageButton Grid.Row="0" Source="dotnet_bot.png" />
+            <Label
+                Grid.Row="1"
+                FontAttributes="Bold"
+                FontSize="Medium"
+                HorizontalTextAlignment="Center"
+                Text="VICTOR MIGUEL BASURTO JUAREZ"
+                VerticalTextAlignment="Center" />
+            <Label
+                Grid.Row="2"
+                FontAttributes="Bold"
+                FontSize="Default"
+                HorizontalTextAlignment="Center"
+                Text="PREVENTA"
+                TextColor="DarkBlue"
+                VerticalTextAlignment="Center" />
+        </Grid>
+        <Grid
+            Grid.Row="1"
+            Padding="20,0,20,0"
+            BackgroundColor="LightGray"
+            ColumnDefinitions="*,*">
+            <Label
+                Grid.Column="0"
+                FontAttributes="Bold"
+                FontSize="Default"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span FontAttributes="Bold" Text="Center " />
+                        <Span
+                            FontAttributes="Bold"
+                            Text="4154"
+                            TextColor="DarkBlue" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+            <Label
+                Grid.Column="1"
+                FontAttributes="Bold"
+                FontSize="Default"
+                HorizontalTextAlignment="Center"
+                VerticalTextAlignment="Center">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span FontAttributes="Bold" Text="Route " />
+                        <Span
+                            FontAttributes="Bold"
+                            Text="3664"
+                            TextColor="DarkBlue" />
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
+        </Grid>
+
+        <Label
+            Grid.Row="2"
+            BackgroundColor="DarkBlue"
+            FontAttributes="Bold"
+            HorizontalTextAlignment="Center"
+            Text="EQUIPO"
+            TextColor="White"
+            VerticalTextAlignment="Center" />
+        <VerticalStackLayout Grid.Row="3">
+            <Grid
+                BackgroundColor="White"
+                ColumnDefinitions="20*,80*"
+                HeightRequest="60">
+                <Image
+                    Grid.Column="0"
+                    Margin="8"
+                    Source="dotnet_bot.png" />
+                <Label
+                    Grid.Column="1"
+                    FontAttributes="Bold"
+                    HorizontalTextAlignment="Center"
+                    Text="Joel Jaquez Ramiresz"
+                    VerticalTextAlignment="Center" />
+            </Grid>
+        </VerticalStackLayout>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,98 @@
+[
+  {
+    "RouteTypeId": "P",
+    "MenuOptionsAfterInitDay": [ "MEN00030" ],
+    "MenuEndDayType": 4,
+    "EndDayItems": [
+      {
+        "MenuItem": "MEN00031",
+        "Type": "EndDayCheckIn"
+      },
+      {
+        "MenuItem": "MEN00032",
+        "Type": "EndDayDownloadPreSales"
+      },
+      {
+        "MenuItem": "FXD00001",
+        "Type": "EndDayDownloadSurveys"
+      }
+    ],
+    "EndDayExtraInformation": [ "ExtraInformationBase" ],
+    "CloseDayAction": null,
+    "EndDayContingencyItems": [
+      "EndDayStartProcess",
+      "EndDayPresales",
+      "EndDayCoolerSurvey",
+      "EndDayRouteEventLog"
+    ],
+    "ParentRouteTypeId": "P",
+    "OrderDocumentTypeId": "PED",
+    "ChangeDocumentTypeId": "CFI",
+    "ApplySurveys": true,
+    "ApplyPallet": false,
+    "ApplyAdditionalSales": true,
+    "ApplyGift": false,
+    "ApplyPreSale": false,
+    "ApplyOrderUnification": false,
+    "DocumentTypesForTotal": [ "PED" ],
+    "StatusForTotal": [ "Submitted" ],
+    "Status": "Submitted",
+    "WasteStatus": "ConfirmedByPresale",
+    "AttendanceSteps": [
+      "AttendanceStepOneViewModel",
+      "AttendanceStepTwoViewModel",
+      "AttendanceStepThreeViewModel"
+    ],
+    "InitialSequenceViewModels": [ "PrinterMatchViewModel", "HomeViewModel" ],
+    "SummaryTicketRouteType": "P",
+    "DisablePurchaseOrder": false
+  },
+  {
+    "RouteTypeId": "P",
+    "MenuOptionsAfterInitDay": [ "MEN00030" ],
+    "MenuEndDayType": 4,
+    "EndDayItems": [
+      {
+        "MenuItem": "MEN00031",
+        "Type": "EndDayCheckIn"
+      },
+      {
+        "MenuItem": "MEN00032",
+        "Type": "EndDayDownloadPreSales"
+      },
+      {
+        "MenuItem": "FXD00001",
+        "Type": "EndDayDownloadSurveys"
+      }
+    ],
+    "EndDayExtraInformation": [ "ExtraInformationBase" ],
+    "CloseDayAction": null,
+    "EndDayContingencyItems": [
+      "EndDayStartProcess",
+      "EndDayPresales",
+      "EndDayCoolerSurvey",
+      "EndDayRouteEventLog"
+    ],
+    "ParentRouteTypeId": "P",
+    "OrderDocumentTypeId": "PED",
+    "ChangeDocumentTypeId": "CFI",
+    "ApplySurveys": true,
+    "ApplyPallet": false,
+    "ApplyAdditionalSales": true,
+    "ApplyGift": false,
+    "ApplyPreSale": false,
+    "ApplyOrderUnification": false,
+    "DocumentTypesForTotal": [ "PED" ],
+    "StatusForTotal": [ "Submitted" ],
+    "Status": "Submitted",
+    "WasteStatus": "ConfirmedByPresale",
+    "AttendanceSteps": [
+      "AttendanceStepOneViewModel",
+      "AttendanceStepTwoViewModel",
+      "AttendanceStepThreeViewModel"
+    ],
+    "InitialSequenceViewModels": [ "PrinterMatchViewModel", "HomeViewModel" ],
+    "SummaryTicketRouteType": "P",
+    "DisablePurchaseOrder": false
+  }
+]

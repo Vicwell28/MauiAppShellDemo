@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Shell
+    x:Class="MauiAppShellDemo.AppShellDos"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:views="clr-namespace:MauiAppShellDemo.Views"
+    Title="AppShellDos">
+
+    <!--  Menú Desplegable  -->
+    <FlyoutItem Title="Home" Icon="home_icon.png">
+        <Tab AbsoluteLayout.LayoutFlags="SizeProportional">
+            <ShellContent Title="INDICADORES" ContentTemplate="{DataTemplate views:HomePage}" />
+            <ShellContent Title="CLIENTES" ContentTemplate="{DataTemplate views:ProfilePage}" />
+        </Tab>
+    </FlyoutItem>
+
+    <FlyoutItem Title="Settings" Icon="settings_icon.png">
+        <ShellContent ContentTemplate="{DataTemplate views:SettingsPage}" />
+    </FlyoutItem>
+
+</Shell>
